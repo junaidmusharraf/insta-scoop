@@ -70,7 +70,7 @@ export async function getInstagramMedia({
         throw new Error("maxPages must be a positive integer.");
     }
 
-    const cacheKey = `instagram_media_${apiVersion}_${accountId}`;
+ 	const cacheKey = `instagram_media_${apiVersion}_${accountId}_${maxPages}`;
     const now = Date.now();
 
     // Check cache
