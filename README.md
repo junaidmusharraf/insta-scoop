@@ -120,10 +120,4 @@ The tests simulate Instagram API responses and do not require real Instagram cre
 
 ## License
 
-MIT. See the LICENSE file for details.
-
-## Acknowledgements
-
-This project is based on the original Insta Scoop package by Eren Aygün.
-
-This modified version includes additional improvements and changes.
+MIT
