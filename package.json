@@ -1,0 +1,36 @@
+
+{
+  "name": "insta-scoop",
+  "version": "1.2.0",
+  "description": "A lightweight Node.js package for retrieving Instagram media using the Instagram Graph API.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "instagram",
+    "instagram-api",
+    "graph-api",
+    "reels",
+    "media",
+    "posts",
+    "nodejs"
+  ],
+  "author": "Junaid Musharraf",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junaidmusharraf/insta-scoop.git"
+  }
+}
